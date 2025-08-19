@@ -27,7 +27,18 @@ class Chai{
 int main(){
     Chai chaiOne;
 
-    chaiOne.teaName = "lemon tea"
+    chaiOne.teaName = "lemon tea";
+    chaiOne.serving = 2;
+    chaiOne.ingredients= {"water","lemon","honey","tea"};
+    
+    chaiOne.displayChaiDetails();
+
+    Chai chaiTwo;
+    chaiTwo.teaName = "Masala chai";
+    chaiTwo.serving = 4;
+    chaiTwo.ingredients = {"water","lemon","honey","tea","milk","tea leave"};
+
+    chaiTwo.displayChaiDetails();
 
     return 0;
 }
