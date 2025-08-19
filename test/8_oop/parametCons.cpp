@@ -9,10 +9,10 @@ public:
     int servings;
     vector<string> ingredients;
 
-    //default constructor
-Chai(){
-    teaName = "unknown Tea";
-    servings = 1;
+    //parameter constructor
+Chai(string nmae, int serve, vector<string> ingredient){
+    teaName = "lemon tea";
+    servings = serve;
     ingredients = {"water,", "tealeave,","sugar,", "ginger"};
     cout << "construtor called" << endl;
 }
@@ -30,9 +30,10 @@ Chai(){
 };
 
 int main(){
+    Chai lemonTea("lemon tea", 2, {"water","lemon","honey"});
 
-    Chai defaultChai;
-    defaultChai.displayChaiDetails();
+    
+    lemonTea.displayChaiDetails();
 
     return 0;
 }
