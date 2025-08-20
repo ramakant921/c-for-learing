@@ -1,0 +1,27 @@
+div {
+    width: 400px;
+}
+.abc{
+    text-align: left;
+}
+.abb{
+    text-align: right;
+}
+.acc{
+    text-align: center;
+}
+.add{
+    text-align: justify;
+}
+.abc{
+    line-height: 300px;
+}
+.abb{
+    line-height: 500px;
+}
+.acc{
+    line-height: 700px;
+}
+.add{
+    line-height: 1000px;
+}
